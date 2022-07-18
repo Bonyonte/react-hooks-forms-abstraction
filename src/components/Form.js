@@ -3,18 +3,18 @@ import React, { useState } from "react";
 function Form() {
   const [formData, setFormData] = useState({ firstName: "John", lastName: "Henry", admin: false,});
 
-  function handleFirstNameChange(event) {
-    setFormData({
-      ...formData,
-      firstName: event.target.value,
-    });
-  }
+  // function handleFirstNameChange(event) {
+  //   setFormData({
+  //     ...formData,
+  //     firstName: event.target.value,
+  //   });
+  // }
 
-  function handleLastNameChange(event) {
-    setFormData({
-      ...formData,
-      lastName: event.target.value,});
-  }
+  // function handleLastNameChange(event) {
+  //   setFormData({
+  //     ...formData,
+  //     lastName: event.target.value,});
+  // }
 
 function handleChange(event) {
   const name = event.target.name;
